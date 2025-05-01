@@ -26,7 +26,7 @@ header h1 {
 }
 
 nav {
-    background-color: #a5afce;
+    background-color: #a5d4f7;
     display: flex; /* 使用 flexbox */
     justify-content: center; /* 讓按鈕置中 */
 }
