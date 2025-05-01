@@ -32,17 +32,17 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #a4d2ff;
-    text-decoration:none;
+    color: #fdfeff;
+    text-decoration: none;
     display: inline-block;
-    padding: 20px 30px;
+    padding: 20px 30px; /* 前高度，後寬度 */
     font-size: 13pt;
-    transition:0.8s;
+    transition: 0.8s;
 }
 
 nav ul li a:hover {
-    background-color: #d79969;
-    color: #fff2c4;
+    background-color: #ffe4cf;
+    color: #8b3939;
 }
 
 /* 區塊樣式 */
