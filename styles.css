@@ -27,17 +27,18 @@ header h1 {
 
 nav {
     background-color: #a5afce;
-    text-align: center;
-    font-size: 0; /* 移除 inline-block 元素之間的空白 */
+    display: flex; /* 使用 flexbox */
+    justify-content: center; /* 讓按鈕置中 */
 }
 
 nav a {
     color: #fdfeff;
     text-decoration: none;
-    display: inline-block;
     padding: 20px 30px; /* 前高度，後寬度 */
-    font-size: 13pt; /* 恢復文字大小 */
+    font-size: 13pt;
     transition: 0.8s;
+    flex: 1; /* 讓按鈕均分寬度 */
+    text-align: center; /* 文字置中 */
 }
 
 nav a:hover {
