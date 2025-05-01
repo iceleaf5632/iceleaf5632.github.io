@@ -85,7 +85,8 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    background-color: #ffe4cf;
+    color: #8b3939;
 }
 
 /* 頁尾樣式 */
