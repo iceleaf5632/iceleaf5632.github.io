@@ -24,18 +24,22 @@ header h1 {
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* 讓按鈕置中 */
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0; /* 移除按鈕之間的縫隙 */
+    flex-grow: 1; /* 讓按鈕均分寬度 */
 }
 
 nav ul li a {
     color: #fdfeff;
     text-decoration: none;
-    display: inline-block;
-    padding: 20px 30px; /* 前高度，後寬度 */
+    display: block; /* 讓按鈕填滿 li */
+    text-align: center;
+    padding: 20px 0; /* 調整按鈕高度 */
     font-size: 13pt;
     transition: 0.8s;
 }
