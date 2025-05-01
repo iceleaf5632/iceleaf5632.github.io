@@ -10,7 +10,7 @@ body {
 
 /* 頁首樣式 */
 header {
-    background: #333;
+    background: #c4e3ff;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -32,7 +32,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fdfeff;
+    color: #a4d2ff;
     text-decoration:none;
     display: inline-block;
     padding: 20px 30px;
@@ -85,7 +85,7 @@ ul li {
 }
 
 a {
-    color: #2a9d8f;
+    color: #49bfb1;
     text-decoration: none;
 }
 
@@ -97,7 +97,7 @@ a:hover {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: #333;
+    background: #fff2d2;
     color: #fff;
     margin-top: 2rem;
 }
