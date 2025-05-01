@@ -32,13 +32,17 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    color: #fdfeff;
+    text-decoration:none;
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 13pt;
+    transition:0.8s;
 }
 
 nav ul li a:hover {
-    background-color: #ffe4cf;
-    color: #8b3939;
+    background-color: #d79969;
+    color: #fff2c4;
 }
 
 /* 區塊樣式 */
@@ -86,8 +90,7 @@ a {
 }
 
 a:hover {
-    background-color: #ffe4cf;
-    color: #8b3939;
+    text-decoration: underline;
 }
 
 /* 頁尾樣式 */
